@@ -1,0 +1,21 @@
+{
+  "name": "codealpha-task1-network-sniffer",
+  "version": "1.0.0",
+  "description": "CodeAlpha Cybersecurity Internship Task 1: Basic Network Packet Sniffer & Traffic Analyzer with Python Scapy, Web UI & AES Log Encryption.",
+  "author": "CodeAlpha Intern",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "npx serve .",
+    "start:py": "python3 app.py",
+    "sniff:cli": "sudo python3 sniffer.py",
+    "test": "pytest tests/"
+  },
+  "dependencies": {
+    "lucide-react": "^1.16.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
